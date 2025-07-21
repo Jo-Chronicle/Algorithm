@@ -17,9 +17,11 @@ public class Main {
         // c = sc.nextInt();
 
         int sum = a+b+c;
-        double avg = sum /3.0;
-        double sumavg = sum-avg;
+        int avg = sum / 3;
+        int sumavg = sum-avg;
 
-        System.out.println(sum);
+        System.out.println(sum);       // 총합
+        System.out.println(avg);       // 평균
+        System.out.println(sumavg);    // 총합 - 평균
     }
 }
