@@ -10,7 +10,7 @@ public class Main {
         int sum = a+b;
         double avg = sum / 2.0;
 
-        //System.out.printf("%d %.1f\n",sum, avg);
-        System.out.printf(sum + " %.1f",avg);
+        System.out.printf("%d %.1f",sum, avg);
+        // System.out.printf(sum + " %.1f",avg);
     }
 }
