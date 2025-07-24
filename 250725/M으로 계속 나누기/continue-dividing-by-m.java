@@ -6,12 +6,11 @@ public class Main {
         int N = sc.nextInt();
         int M = sc.nextInt();
         
-        /int div = N/M;
+        // int div = N/M;
         // Please write your code here.
         while(N > 0){
             System.out.println(N);
-            // N /= M;
-            div;
+            N /= M;
         }
     }
 }
