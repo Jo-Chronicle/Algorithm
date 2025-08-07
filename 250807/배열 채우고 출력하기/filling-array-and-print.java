@@ -1,8 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        String[] n = {"L", "E", "B", "R", "O", "S", "C", "O", "D", "E"};
+        Scanner sc = new Scanner(System.in);
+        
+        String[] arr = new String[10];
 
-        for(int i=n.length-1; i>=0; i--){
-            System.out.print(n[i]); 
+        for(int i=0; i<10; i++){
+            arr[i]=sc.next();
+        }
+
+        for(int i=arr.length-1; i>=0; i--){
+            System.out.print(arr[i]); 
         }
 }}
