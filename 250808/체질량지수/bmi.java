@@ -8,10 +8,11 @@ public class Main {
         double b = (10000 * w)/(h*h);
 
         if(b>=25){
-            System.out.printf("%.1f",b\n);
-            System.out.println("Obesity");
+            System.out.printf("%.0f\n",b);
+            System.out.print("Obesity");
         } else{
-            System.out.printf("%.1f",b);
+            System.out.printf("%.0f",b); //System.out.println((int)b);
+
         }
         
     }
