@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if(a<10){
+        if(a<0){
             System.out.println("ice");
         } else if(a>=100){
             System.out.println("vapor");
